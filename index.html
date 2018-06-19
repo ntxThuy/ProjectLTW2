@@ -8,7 +8,9 @@
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FreeHTML5.co" />
-
+	<? php
+		$dbconnect =mysqli_connect('newdatabase')
+	?>
 
   <!-- 
 	
@@ -103,72 +105,7 @@
 
 					<div class="row row-mt-15em">
 						<div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
-							<span class="intro-text-small">MEOWMEOW...</span>
-							<h1>Xin chào!</h1>	
-						</div>
-						<div class="col-md-4 col-md-push-1 animate-box" data-animate-effect="fadeInRight">
-							<div class="form-wrap">
-								<div class="tab">
-									<ul class="tab-menu">
-										<li class="active gtco-first"><a href="#" data-tab="signup">Sign up</a></li>
-										<li class="gtco-second"><a href="#" data-tab="login">Login</a></li>
-									</ul>
-									<div class="tab-content">
-										<div class="tab-content-inner active" data-content="signup">
-											<form action="#">
-												<div class="row form-group">
-													<div class="col-md-12">
-														<label for="username">Username or Email</label>
-														<input type="text" class="form-control" id="username">
-													</div>
-												</div>
-												<div class="row form-group">
-													<div class="col-md-12">
-														<label for="password">Password</label>
-														<input type="password" class="form-control" id="password">
-													</div>
-												</div>
-												<div class="row form-group">
-													<div class="col-md-12">
-														<label for="password2">Repeat Password</label>
-														<input type="password" class="form-control" id="password2">
-													</div>
-												</div>
-
-												<div class="row form-group">
-													<div class="col-md-12">
-														<input type="submit" class="btn btn-primary" value="Sign up">
-													</div>
-												</div>
-											</form>	
-										</div>
-
-										<div class="tab-content-inner" data-content="login">
-											<form action="#">
-												<div class="row form-group">
-													<div class="col-md-12">
-														<label for="username">Username or Email</label>
-														<input type="text" class="form-control" id="username">
-													</div>
-												</div>
-												<div class="row form-group">
-													<div class="col-md-12">
-														<label for="password">Password</label>
-														<input type="password" class="form-control" id="password">
-													</div>
-												</div>
-
-												<div class="row form-group">
-													<div class="col-md-12">
-														<input type="submit" class="btn btn-primary" value="Login">
-													</div>
-												</div>
-											</form>	
-										</div>
-
-									</div>
-								</div>
-							</div>
+							
 						</div>
 					</div>
 							
